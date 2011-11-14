@@ -3,13 +3,14 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
+	position: relative;
 	background: url(/assets/bg/cross-overlay-bg.png) repeat center center #f1f1f1;
 	font-family: Verdana, sans-serif;	
 }
 
 	header {
-		height: 80px;	
-		min-height: 80px;
+		height: 100px;	
+		min-height: 100px;
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -25,13 +26,13 @@ body {
 			float: left;
 			text-transform: uppercase;
 			padding: 0 0 0 20px;
-			font-size: 32px;
+			font-size: 36px;
 			font-family: Verdana, sans-serif;
 			letter-spacing: 3px;
 		}
 		
 			header > h1 > span {
-				font-size: 36px;
+				font-size: 42px;
 				letter-spacing: 3px;				
 			}
 		
@@ -39,11 +40,108 @@ body {
 			position: relative;
 			display: inline;
 			float: right;
-			padding: 10px 20px 0 0;	
-			font-size: 21px;		
+			padding: 20px 20px 0 0;	
+			font-size: 23px;	
 		}
 
-	article {}
+	article {
+		position: absolute; 
+		top: 110px;
+		left: 10px;
+	}
+	  div#slider {}
+	    div#slide1 {}
+	      div.col-1 {
+					width: 284px;				
+					display: inline-block;
+				}
+	        div.col-1 > div.row-1 {
+						width: 284px;
+						height: 174px;
+						margin: 0 0 6px 0;						
+					}
+	          div.col-1 > div.row-1 > img {
+							width: 280px;
+							height: 170px;
+							min-height: 170px;
+							background: rgba(255,255,255,0.5);
+					}
+	        div.col-1 > div.row-2 {
+						width: 284px;
+						height: 244px;
+					}
+	          div.col-1 > div.row-2 > img {
+							width: 280px;
+							height: 240px;
+							min-height: 240px;
+							background: rgba(255,255,255,0.5);
+						}
+	      div.col-2 {
+					width: 284px;
+					display: inline-block;
+				}
+	        div.col-2 > div.row-1 {
+						width: 284px;
+						height: 244px;
+						margin: 0 0 6px 0;
+					}
+	          div.col-2 > div.row-1 > img {
+							width: 280px;
+							height: 240px;
+							min-height: 240px;
+							background: rgba(255,255,255,0.5);
+						}
+	        div.col-2 > div.row-2 {
+						width: 284px;
+						height: 194px;
+					}
+	          div.col-2 > div.row-2 > img {
+							width: 280px;
+							height: 170px;
+							min-height: 170px;
+							background: rgba(255,255,255,0.5);
+						}
+	      div.col-3 {
+					width: 384px;
+					display: inline-block;
+	}
+	
+					div.col-3 > div.row-1 {
+						width: 384px;
+						height: 100px;
+						margin: 0 0 4px 0;
+					}
+					
+						div.col-3 > div.row-1 img:first-child {
+							width: 226px;
+							height: 96px;
+							min-height: 96px;
+							margin: 0 4px 0 0;
+							background: rgba(255,255,255,0.5);
+						}
+						
+						div.col-3 > div.row-1 img:last-child {
+							width: 144px;
+							height: 96px;
+							min-height: 96px;
+							background: rgba(255,255,255,0.5);
+						}
+						
+					div.col-3 > div.row-2 {
+						width: 384px;
+						height: 320px;
+					}
+					
+		        div.col-3 > div.row-2 > img {
+							width: 380px;
+							height: 316px;
+							min-height: 316px;
+							background: rgba(255,255,255,0.5);
+						}
+	      div.col-4 {}
+	        div.col-4 > img {}
+	    div#slide2 {}
+	    div#slide3 {}
 
 	footer {
 		height: 80px;	
@@ -61,7 +159,7 @@ body {
 			display: inline;
 			float: left;
 			text-transform: uppercase;
-			padding: 0 0 0 20px;
+			padding: 0 0 0 40px;
 			font-size: 32px;
 		}
 		
